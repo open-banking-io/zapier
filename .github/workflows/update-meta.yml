@@ -26,7 +26,7 @@ jobs:
         run: |
           npm ci
           npx --yes zapier-platform-cli@19 register "open-banking.io" \
-            --desc "open-banking.io is a PSD2 open-banking service that syncs bank accounts and transactions into your tools with zero-knowledge encryption." \
+            --desc "open-banking.io is a PSD2 open-banking service that connects your bank accounts and delivers transactions with zero-knowledge encryption." \
             --url "https://open-banking.io" \
             --audience global \
             --role employee \
